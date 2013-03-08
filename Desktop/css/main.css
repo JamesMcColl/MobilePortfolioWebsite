@@ -1,0 +1,145 @@
+/* HOME PAGE CSS
+ * Author: James McColl
+ * Date: February 1st, 2013
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #3D3D3D;
+}
+
+body {
+	background-color: #C0C0C0;
+    font-size: 1em;
+    line-height: 1.4;
+    font: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2{
+	margin-left: 30px;
+}
+h3{
+	padding: 10px;
+	text-decoration: underline;
+}
+
+h4{
+	text-align: center;
+}
+
+p {
+	margin-left: 50px
+}
+
+.logo {
+	float: left;
+}
+
+.profile{
+	margin-left: 25px;
+}
+
+.resume{
+	padding-left: 125px;
+	display: inline;
+}
+.contact{
+	padding: 0px;
+	margin: 0px;
+	background:#3543FB;
+	color: white;
+}
+.contactdetails li{
+	padding: 0px;
+	display: inline;
+	margin: 0px;
+	text-decoration: none;
+}
+
+.callAction a,
+.callAction a:visited{
+	color:#F3F3F9;
+	text-decoration: none;
+	background-color: #3543FB;
+	padding: 15px;
+	margin-left: 40px;
+}
+.callAction a:hover{
+	background-color: #0077CC;
+}
+
+.contact li{
+	display: inline;
+	padding-right: 10px;
+}
+
+.footer-container{
+	}
+
+/* ===================
+   Create the Blue Theme
+   =================== */
+
+.header-container {
+	height: 120px;
+    border-bottom: 10px solid #3543FB;
+}
+
+.footer-container,
+.main aside {
+    border-top: 10px solid #3543FB;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #030D93;
+    color: white;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    Nav Menu
+   ============== */
+
+nav ul {
+	height: 30px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav li {
+    height: 30px;
+    line-height: 30px;
+    display: inline;
+    list-style-type: none;
+    
+}
+nav a {
+	padding: 5px 30px;
+	padding-bottom: 5px;
+	display: inline;
+	text-align: center;
+	color: white;
+	background: #3543FB;
+	text-decoration: none;
+}
+.active{
+	background-color: #C0C0C0;
+}
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    background-color: #020538;
+}
