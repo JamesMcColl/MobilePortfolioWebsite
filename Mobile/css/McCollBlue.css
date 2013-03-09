@@ -52,6 +52,10 @@
 	align: center
 }
 
+h2{
+	text-align: center;
+}
+
 .ui-bar-a,
 .ui-bar-a input,
 .ui-bar-a select,
@@ -483,7 +487,7 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 .ui-btn-active {
 	border: 1px solid #a7a7aa /*{global-active-border}*/;
-	background: #ffffff0 /*{global-active-background-color}*/;
+	background: #fffff0 /*{global-active-background-color}*/;
 	font-weight: bold;
 	color: #db6d0f /*{global-active-color}*/;
 	cursor: pointer;
@@ -549,7 +553,7 @@ a.ui-link-inherit {
 .ui-icon-searchfield:after {
 	background-color: #000000 /*{global-icon-color}*/;
 	background-color: rgba(0,0,0,0.25) /*{global-icon-disc}*/;
-	background-image: url(images/icons-18-white.png) /*{global-icon-set}*/;
+	background-image: url(../images/icons-18-white.png) /*{global-icon-set}*/;
 	background-repeat: no-repeat;
 	-webkit-border-radius: 				9px;
 	border-radius: 						9px;
@@ -562,7 +566,7 @@ a.ui-link-inherit {
 .ui-icon-alt .ui-icon-searchfield:after {
 	background-color: 						#fff;
 	background-color: 						rgba(255,255,255,.3);
-	background-image: url(images/icons-18-black.png);
+	background-image: url(../images/icons-18-black.png);
 	background-repeat: no-repeat;
 }
 
@@ -674,7 +678,7 @@ a.ui-link-inherit {
 	.ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-bars, .ui-icon-edit,
 	.ui-icon-search, .ui-icon-searchfield:after, 
 	.ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on {
-		background-image: url(images/icons-36-white.png);
+		background-image: url(../images/icons-36-white.png);
 		-moz-background-size: 864px 18px;
 		-o-background-size: 864px 18px;
 		-webkit-background-size: 864px 18px;
@@ -682,7 +686,7 @@ a.ui-link-inherit {
 	}
 
 	.ui-icon-alt .ui-icon {
-		background-image: url(images/icons-36-black.png);
+		background-image: url(../images/icons-36-black.png);
 	}
 
 	.ui-icon-plus {
@@ -772,12 +776,12 @@ a.ui-link-inherit {
 }
 .ui-checkbox-on .ui-icon,
 .ui-radio-on .ui-icon {
-	background-color: #ffffff0 /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
+	background-color: #fffff0 /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
 }
 
 /* loading icon */
 .ui-icon-loading {
-	background: url(images/ajax-loader.gif);
+	background: url(../images/ajax-loader.gif);
 	background-size: 46px 46px;
 }
 
@@ -845,15 +849,15 @@ a.ui-link-inherit {
 }
 .ui-focus,
 .ui-btn:focus {
-	-moz-box-shadow: inset 0px 0px 3px #ffffff0 /*{global-active-background-color}*/, 0px 0px 9px #ffffff0 /*{global-active-background-color}*/;
-	-webkit-box-shadow: inset 0px 0px 3px #ffffff0 /*{global-active-background-color}*/, 0px 0px 9px #ffffff0 /*{global-active-background-color}*/;
-	box-shadow: inset 0px 0px 3px #ffffff0 /*{global-active-background-color}*/, 0px 0px 9px #ffffff0 /*{global-active-background-color}*/;
+	-moz-box-shadow: inset 0px 0px 3px #fffff0 /*{global-active-background-color}*/, 0px 0px 9px #fffff0 /*{global-active-background-color}*/;
+	-webkit-box-shadow: inset 0px 0px 3px #fffff0 /*{global-active-background-color}*/, 0px 0px 9px #fffff0 /*{global-active-background-color}*/;
+	box-shadow: inset 0px 0px 3px #fffff0 /*{global-active-background-color}*/, 0px 0px 9px #fffff0 /*{global-active-background-color}*/;
 }
 .ui-input-text.ui-focus,
 .ui-input-search.ui-focus {
-	-moz-box-shadow: 0px 0px 12px #ffffff0 /*{global-active-background-color}*/;
-	-webkit-box-shadow: 0px 0px 12px #ffffff0 /*{global-active-background-color}*/;
-	box-shadow: 0px 0px 12px #ffffff0 /*{global-active-background-color}*/;	
+	-moz-box-shadow: 0px 0px 12px #fffff0 /*{global-active-background-color}*/;
+	-webkit-box-shadow: 0px 0px 12px #fffff0 /*{global-active-background-color}*/;
+	box-shadow: 0px 0px 12px #fffff0 /*{global-active-background-color}*/;	
 }
 
 /* unset box shadow in browsers that don't do it right
